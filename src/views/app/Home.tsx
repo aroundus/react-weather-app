@@ -186,15 +186,15 @@ export default function Home() {
                   <Fragment>
                     <div className="row">
                       <span>HUMIDITY</span>
-                      <span>{statusOfLoadingWeather == Step.FINISH ? condition.main.humidity : 0}</span>
+                      <span>{statusOfLoadingWeather == Step.FINISH ? condition.main.humidity : 0}%</span>
                     </div>
                     <div className="row">
                       <span>PRESSURE</span>
-                      <span>{statusOfLoadingWeather == Step.FINISH ? condition.main.pressure : 0}</span>
+                      <span>{statusOfLoadingWeather == Step.FINISH ? condition.main.pressure : 0}hPa</span>
                     </div>
                     <div className="row">
                       <span>WIND</span>
-                      <span>{statusOfLoadingWeather == Step.FINISH ? condition.wind.speed : 0}m/h</span>
+                      <span>{statusOfLoadingWeather == Step.FINISH ? condition.wind.speed : 0}m/s</span>
                     </div>
                   </Fragment>
                 </Card.Body>
