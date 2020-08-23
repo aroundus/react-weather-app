@@ -4,7 +4,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/sallyworld/react-weather-app?style=flat)
 ![GitHub repo size](https://img.shields.io/github/repo-size/sallyworld/react-weather-app?style=flat)
 
-![demo](https://user-images.githubusercontent.com/16731356/90965599-94f5fb80-e504-11ea-96ae-6dd7f1397c74.gif)
+![demo](https://user-images.githubusercontent.com/16731356/90973729-bdf7aa00-e55f-11ea-8979-2b09960f8d0c.gif)
 
 <br />
 
