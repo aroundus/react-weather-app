@@ -1,0 +1,61 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "brace-style": "error",
+    "eol-last": "error",
+    "eqeqeq": "off",
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "key-spacing": "error",
+    "keyword-spacing": "error",
+    "linebreak-style": ["error", "unix"],
+    "no-async-promise-executor": "off",
+    "no-console": "off",
+    "no-case-declarations": "off",
+    "no-misleading-character-class": "off",
+    "no-mixed-spaces-and-tabs": "error",
+    "no-undef": "off",
+    "no-unused-vars": "off",
+    "no-useless-catch": "off",
+    "no-useless-escape": "off",
+    "object-curly-spacing": ["error", "always"],
+    "quotes": ["error", "single"],
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1,
+    "react/react-in-jsx-scope": 1,
+    "require-atomic-updates": "off",
+    "semi": ["error", "always"],
+    "spaced-comment": "error",
+    "space-before-blocks": "error",
+    "space-in-parens": "error",
+    "space-infix-ops": [
+      "error",
+      {
+        "int32Hint": false
+      }
+    ]
+  }
+}
