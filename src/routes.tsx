@@ -51,17 +51,6 @@ export default function Routes() {
   const isLoggedIn = useSelector((state: State) => state.auth.isLoggedIn);
 
   useEffect(() => {
-    if (window.MOBILE) {
-      setTimeout(function () {
-        window.postMessage(
-          JSON.stringify({
-            messageType: 'loadSuccess',
-            description: 'login'
-          }), '*'
-        );
-      }, 1000);
-    }
-
     /**
      * 1. 실제로 로그인하지 않은 경우
      * 2. 로그인 상태에서 새로 고침을 한 경우
