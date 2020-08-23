@@ -192,11 +192,11 @@ export default function Home() {
                     </div>
                     <div className="row">
                       <span>PRESSURE</span>
-                      <span>{statusOfLoadingWeather == Step.FINISH ? condition.main.pressure : 0}hPa</span>
+                      <span>{statusOfLoadingWeather == Step.FINISH ? condition.main.pressure : 0} hPa</span>
                     </div>
                     <div className="row">
                       <span>WIND</span>
-                      <span>{statusOfLoadingWeather == Step.FINISH ? condition.wind.speed : 0}m/s</span>
+                      <span>{statusOfLoadingWeather == Step.FINISH ? condition.wind.speed : 0} m/s</span>
                     </div>
                   </Fragment>
                 </Card.Body>
