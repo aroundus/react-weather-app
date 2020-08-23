@@ -42,6 +42,8 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
+    if (_.isEmpty(favicon)) return;
+
     const link: HTMLLinkElement = document.querySelector('link[rel*="icon"]') || document.createElement('link');
 
     link.type = 'image/x-icon';
